@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riyanshu | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Neon glow */
+    .neon {
+      text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff, 0 0 40px #00f0ff;
+    }
+
+    /* Animation */
+    .fade-in {
+      animation: fadeIn 2s ease-in-out forwards;
+      opacity: 0;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-950 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-900 p-4 shadow-md fixed w-full z-10 fade-in">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-cyan-400 neon">Riyanshu Akash</h1>
+      <ul class="flex gap-6 text-gray-300">
+        <li><a href="index.html" class="hover:text-cyan-400">Home</a></li>
+        <li><a href="about.html" class="hover:text-cyan-400">About</a></li>
+        <li><a href="skills.html" class="hover:text-cyan-400">Skills</a></li>
+        <li><a href="education.html" class="hover:text-cyan-400">Education</a></li>
+        <li><a href="experience.html" class="hover:text-cyan-400">Experience</a></li>
+        <li><a href="contact.html" class="hover:text-cyan-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col md:flex-row justify-center items-center text-center md:text-left px-4 pt-24 fade-in">
+    <!-- Image -->
+    <img src="PHOTO-2025-11-23-11-13-02.jpg" alt="Riyanshu" class="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-cyan-400 shadow-lg mx-6" />
+
+    <!-- Text -->
+    <div class="mt-8 md:mt-0 md:ml-12">
+      <h2 class="text-4xl md:text-6xl font-extrabold mb-4 neon">Hi, I'm Riyanshu Akash</h2>
+      <p class="text-lg md:text-xl text-gray-400 max-w-xl">
+        A passionate CSE student & full-stack developer crafting modern, interactive web and mobile experiences.
+      </p>
+      <a href="contact.html" class="mt-6 inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-full transition-all">Hire Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-900 text-gray-400">
+    © 2025 Riyanshu Akash. All rights reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Neon Effect for Text */
+  .neon {
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  }
+  
+  /* Additional Styling for Custom Elements */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+  }
+  
+  nav ul li a {
+    transition: color 0.3s ease;
+  }
+  
+  /* Other custom styles can go here */
+  

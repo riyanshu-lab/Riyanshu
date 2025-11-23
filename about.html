@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Riyanshu </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .neon {
+      text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+    }
+
+    .fade-in {
+      animation: fadeIn 1.5s ease-in-out forwards;
+      opacity: 0;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+      
+    }
+
+    .glow-btn {
+      box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+    }
+
+    .glow-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+    }
+  </style>
+</head>
+<body class="bg-gray-950 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-900 p-4 shadow-md fixed w-full z-10 fade-in">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-cyan-400 neon">Riyanshu Akash</h1>
+      <ul class="flex gap-6 text-gray-300">
+        <li><a href="index.html" class="hover:text-cyan-400">Home</a></li>
+        <li><a href="about.html" class="hover:text-cyan-400">About</a></li>
+        <li><a href="skills.html" class="hover:text-cyan-400">Skills</a></li>
+        <li><a href="education.html" class="hover:text-cyan-400">Education</a></li>
+        <li><a href="experience.html" class="hover:text-cyan-400">Experience</a></li>
+        <li><a href="contact.html" class="hover:text-cyan-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center px-6 pt-24 text-center fade-in">
+    <img src="PHOTO-2025-11-23-11-13-02.jpg" alt="RIYANSHU AKASH" class="w-48 h-48 rounded-full border-4 border-cyan-400 shadow-xl mb-6" />
+    
+    <h2 class="text-4xl md:text-5xl font-bold neon mb-4">About Me</h2>
+
+    <p class="max-w-2xl text-lg text-gray-400 mb-6">
+      I'm Riyanshu Akash, a Computer Science student with a passion for building modern websites and mobile apps that are both visually stunning and highly functional. I love working with new technologies and constantly exploring ways to push creative boundaries. Whether it’s design, frontend magic, or backend logic — I enjoy bringing ideas to life!
+    </p>
+
+    <a href="Riyanshu Akash CV.pdf" download class="bg-cyan-500 glow-btn text-white px-6 py-3 rounded-full font-semibold transition-all">
+      🚀 Download CV
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-900 text-gray-400">
+    © 2025 Riyanshu Akash. All rights reserved.
+  </footer>
+
+</body>
+</html>
